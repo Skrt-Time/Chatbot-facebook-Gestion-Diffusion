@@ -1,0 +1,7 @@
+*.xml
+*.pdf
+*.doc?
+.idea/
+__pycache__/
+*.pkl
+*.csv

@@ -1,0 +1,68 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello","Hallo","Good day", "Hey", "Ekse", "Hi", "Hallo"],
+     "responses": ["Hi", "Hello how can I help you?",  "Hola", "Hey"]
+    },
+    {"tag": "Salutations",
+    "patterns": ["Bonjour","Bonsoir","Yo","Allo","Salut"],
+    "responses": ["Je vous salue", "Bonjour"]},
+    {"tag": "News",
+      "patterns": ["How are you", "How do you feel today", "How is your day", "How was your day"],
+      "responses": ["I'm good!, you too i hope. "]},
+    {"tag": "Nouvelle",
+      "patterns": ["Comment ca va", "Tu vas comment", "Comment vas-tu", "Comment vas tu","J'espere que tu vas bien"],
+      "responses": ["Très bien, j'espère que c'est pareil pour toi", "Tranquille, j'èspere que c'est pareil pour toi "]},
+    {"tag": "OUI",
+      "patterns": ["Oui", "Yes", "Ye", "Youpi", "yeah", "oh yeah","Okay","D'accord","ok","alright"],
+      "responses": ["[good]"]},
+    {"tag": "NON",
+      "patterns": ["Non", "No", "Nope", "Faux", "yeah", "False","nul"],
+      "responses": ["[sad], Désole je suis qu'une intelligence artificielle donc mes compétences limitées. Si vos besoins ne sont pas satisfaient vous pouvez vous diriger ici \n\n[sad], Sorry i'm just an IA then i have limited capacities. If you are not satisfies you should go in"]},
+
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye", "A plus","A toute", "A la prochaine"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "See you later", "Peace out", "Sure dude", "Ciao"]
+    },
+    {"tag": "Aurevoir",
+     "patterns": ["Bye" ,"Ok bye", "Bye Bye", "Aurevoir","A plus","A toute", "A la prochaine"],
+     "responses": ["J'espere qu'on se reverra", "C'etait un plaisir", "A la prochaine"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!",  "My pleasure", "You are welcome", "Sure dude"]
+    },
+    {"tag": "Remerciement",
+     "patterns": ["Merci", "Merci beaucoup", "Je vous remercie"],
+     "responses": ["De rien!", "Ravis de vous avoir été utile", "Content de vous avoir aidé"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Désolé, je ne peux repondre à votre préoccupation. \n\n Sorry, i can't answer your concern."]
+     },
+     {"tag": "nom",
+      "patterns": ["Comment t'appelles tu", "C'est quoi ton nom", "Tell me your name", "Qui est tu", "Parle moi de toi", "Tu es"],
+      "responses": ["Je suis SKRT", "Mon nom est SKRT", "I am SKRT, the coolest bot ever", "SKRT est mon nom"]
+      },
+      {"tag": "help",
+       "patterns": ["I need help", "I have a problem", "Could you help me", "Can you help"],
+       "responses": ["I'm here for that! I can redirect you in this site "]
+      },
+      {"tag": "Aide",
+         "patterns": ["J'ai besoin d'aide", "Peux-tu m'aider", "Aide moi", "J'ai un problème","J'ai un soucis", "Je n'arrive pas à comprendre"],
+         "responses": ["Je suis là pour t'aider"]
+        },
+
+      {
+        "tag": "Services",
+        "patterns": ["Quels sont les services offerts par la SCB", "Qu'est ce que vous nous proposez", "Quels sont les avantages de choisir la SCB"],
+        "responses": ["Notre banque SCB offre une multitudes de services parmi lesquel la creation de compte d'épargne, courant, et meme etudiant"]
+      },
+      {
+        "tag": "SCB",
+        "patterns": ["What is SCB", "C'est quoi la SCB", "Cest quoi l'origine de la SCB", "Ou est base la SCB", "Quels sont les origines de la SCB"],
+        "responses": ["*La SCB*, est la société des banques camerounaise \n\n Basé a AttijariWafa au Maroc avec plusieurs banques"]
+      }
+
+  ]
+}
